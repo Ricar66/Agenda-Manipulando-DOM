@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 36px;
+    color: #28a745; /* Verde */
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#click {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#click:hover {
+    background-color: #3e8e41;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form input {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form span {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}    
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    list-style: none;
+    width: 350px;
+    position: relative;
+    list-style: none;
+}
+
+.item-nome, .item-email, .item-tel, .item-data {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 2px;
+    display: inline-block;
+}
+
+.excluir-item, .alterar-item { /* Estilos comuns para ambos os botões */
+    position: absolute;
+    bottom: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+.excluir-item {
+    right: 60px;
+    background-color: #f44336;
+    color: white;
+    margin-right: 10px;
+}
+
+.excluir-item:hover {
+    background-color: #d32f2f;
+}
+
+.alterar-item {
+    right: 5px;
+    background-color: #2196F3;
+    color: white;
+    margin-left: 10px;
+}
+
+.alterar-item:hover {
+    background-color: #1976D2;
+}
+
+/* 📱 Responsividade para telas menores */
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
