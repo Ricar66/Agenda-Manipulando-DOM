@@ -12,4 +12,5 @@ JavaScript (DOM) → Manipulação de eventos e interatividade
 ✅ Botão de envio estilizado para melhor experiência do usuário
 
 📸 Layout
-<img src="C:\Users\ricardo.moretti\Pictures\Screenshots\Captura de tela 2025-02-24 114856.png" width="500px">
+
+![Captura de tela 2025-02-24 114856](https://github.com/user-attachments/assets/62f38b55-de24-4c6f-b9b5-e2b67299eea2)
